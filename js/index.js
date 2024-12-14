@@ -5,18 +5,18 @@ console.log(numOrStr);
 
 switch (numOrStr) {
 
-    case (numOrStr === null):
+    case (null):
         alert('ви скасували');
         break;
 
-    case (numOrStr?.trim() === ''):
+    case (''):
         alert('Empty String');
         break;
 
-    case (isNaN(+numOrStr)):
+    case (isNaN(+numOrStr)):          // чогось это не работает
         alert(' number is Ba_NaN');
         break;
 
     default:
-        console.log('OK!');
+       alert('OK!')
 }
