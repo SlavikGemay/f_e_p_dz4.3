@@ -13,7 +13,7 @@ switch (numOrStr) {
         alert('Empty String');
         break;
 
-    case (+numOrStr):                // вот так чтоли???
+    case (numOrStr):                // вот так чтоли???
         alert(' number is Ba_NaN');
         break;
 
